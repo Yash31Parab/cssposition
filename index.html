@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Document</title>
+      <link rel="stylesheet" href="style.css">
+      <style>
+         body{
+         height: 3000px;
+         }
+         .box{
+         display: inline-block;
+         border: 2px solid red;
+         width: 250px;
+         height: 250px;
+         margin: 2px;
+         background-color: silver;
+         }
+         #box{
+         position: static;
+         top: 26px;
+         }
+         #box3{
+         position: relative;
+         top: 34px;
+         left: 34px;
+         }
+         #box1{
+         position: absolute;
+         top: 140px;
+         left: 140px;
+         }
+         #box2{
+         position: sticky;
+         top: 2px;
+         }
+         #box4{
+         position: fixed;
+         right: 4px;
+         bottom: 2px;
+         }
+      </style>
+   </head>
+   <body>
+       <h1>POSITION</h1>
+      <div class="properties">
+         <ul>
+            <li>
+               <h3>relative :- It is the property of the element which allows to move the element wrt. its root position</h3>
+            </li>
+            <li>
+               <h3>absolute :- Position static is default properties of a element.</h3>
+            </li>
+            <li>
+               <h3>
+               sticky :- It is the property which combines position relative and sticky.The only thing is when it satisfy a CSS property its property starts working</p> 
+            </li>
+            <li>
+               <h3>fixed :- It is the property which allows the element to remained fixed in that particular position when the page scrolls</h3>
+            </li>
+            <li>
+               <h3>static :- Position static is default properties of a element.Here Top,left,right and bottom properties wont work</h3>
+            </li>
+         </ul>
+      </div>
+      <div class="box" id="box">static</div>
+      <div class="box" id="box1">absolute</div>
+      <div class="box" id="box2">sticky</div>
+      <div class="box" id="box3">relative</div>
+      <div class="box" id="box4">fixed</div>
+   </body>
+   </htmlh3
